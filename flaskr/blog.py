@@ -70,7 +70,7 @@ def update(id):
 
     if request.method == 'POST':
         title = request.form['title']
-        body = request.body['body']
+        body = request.form['body']
         error = None
 
         if not title:
